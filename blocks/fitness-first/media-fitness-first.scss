@@ -1,0 +1,31 @@
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .heading {
+    &:after {
+      left: 48%;
+    }
+  }
+
+  .statistic {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .users {
+    margin-top: 5px;
+  }
+
+  .statistic-pic {
+    max-width: 75%;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .heading {
+    &:after {
+      left: 45%;
+    }
+  }
+
+}

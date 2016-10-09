@@ -1,0 +1,44 @@
+.header {
+  // background: url(../img/headerBg.jpg) no-repeat center center;
+  // @include cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-img {
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+  margin-bottom: -10px;
+}
+
+.header__heading {
+  position: absolute;
+  bottom: 15%;
+  left: 3%;
+}
+
+.main-heading {
+  font: 2.857em/50px $ffAR;
+  color: #fff;
+  text-transform: uppercase;
+
+  &:after {
+    content: "/";
+    color: $green;
+  }
+}
+
+.post-heading {
+  font: 700 1.071em $ffO;
+  color: #fff;
+  text-transform: uppercase;
+  text-indent: 195px;
+  display: inline-block;
+
+  &:after {
+    content: "/";
+    color: $red;
+  }
+}
+

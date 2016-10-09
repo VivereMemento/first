@@ -1,0 +1,34 @@
+.involve-your {
+	background-color: $red;
+}
+
+.content-white__wrap_bg {
+	background: url(../img/strawberry.png) no-repeat right top;
+}
+
+.box__content-white_padding {
+	padding-bottom: 95px;
+}
+
+.content-green__wrap {
+	padding-right: 40px;
+	background: url(../img/avacado.png) no-repeat right top;
+}
+
+.box__content-green_shadow {
+	padding: 55px 30px 74px 40px;
+	box-shadow: none;
+}
+
+.pre-heading_font {
+	font-size: 1.214em;
+	color: #fff;
+}
+
+.heading_color {
+	color: #fff;
+
+	&:after {
+		display: none;
+	}
+}

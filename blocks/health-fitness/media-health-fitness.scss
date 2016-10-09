@@ -1,0 +1,54 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .img-box-big {
+    padding: 40px 20px 20px 20px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .health-fitness {
+    height: 214px;
+  }
+
+  .img-box-small {
+    display: none;
+  }
+
+  .img-box-big {
+    padding: 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .health-fitness {
+    height: 161px;
+  }
+
+  .font-style {
+    font-size: .7em;
+  }
+
+  .health-fitness__link{
+    margin-right: 0;
+  
+    &:after {
+      width: 15px;
+      height: 15px;
+      right: -18px;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.features {
+  padding: 115px 0;
+  background-color: $green;
+
+  &__list {
+    @include clr;
+  }
+
+  &__icon {
+    width: 47px;
+    height: 46px;
+    background: url(../img/offer_pic.png) no-repeat;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 3;
+
+    &-case {
+      background-position: 0 0;
+    }
+    &-clock {
+      background-position: 0 -46;
+    }
+    &-cloud {
+      background-position: 0 -93;
+    }
+    &-communicate {
+      background-position: 0 -139;
+    }
+  }
+
+  &__item {
+    padding-right: 40px;
+  }
+
+  &__content__heading {
+    margin-top: 20px;
+    font: 1.714em/24px $ffO;
+    color: #fff;
+  }
+
+  &__content__text {
+    margin-top: 25px;
+    font: 1em/28px $ffPR;
+    color: #fff;
+  }
+
+  &__content__link {
+    margin-top: 25px;
+    font: 1em/14px $ffPR;
+    color: #fff;
+    display: inline-block;
+
+    &:hover {
+      color: $red;
+      text-decoration: none;
+    }
+  }
+}
+
+.arrow {
+  font-family: Arial;
+}

@@ -1,0 +1,26 @@
+.your-body {
+  background-color: $green;
+
+  &__content {
+    float: right;
+  }
+
+  &__img {
+    float: left;
+  }
+}
+
+.users_color {
+  color: #fff;
+}
+
+.statistic_pos_left {
+  width: 150px;
+  left: 40px;
+}
+
+.your-boby__heading {
+  &:after {
+    left: 45%;
+  }
+}

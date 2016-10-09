@@ -1,0 +1,90 @@
+.fitness-first {
+  background-color: $green;
+}
+
+.content {
+  padding: 52px 45px 95px 45px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.pre-heading {
+  font: 400 1em/22px $ffM;
+  color: $red;
+  text-transform: uppercase;
+  display: block;
+}
+
+.heading {
+  margin-top: 5px;
+  font: 300 2.500em/30px $ffO;
+  color: $green;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+    background: url(../img/drop-grey.png) no-repeat center center;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+  }
+}
+
+.text {
+  margin-top: 60px;
+  font: 400 1em/26px $ffO;
+  color: $grey;
+}
+
+.link {
+  margin-top: 9px;
+  font: 400 1em/16px $ffO;
+  color: $green;
+  text-transform: capitalize;
+  border-bottom: 1px solid $green;
+  display: inline-block;
+
+  &:focus,
+  &:hover {
+      color: $green;
+      text-decoration: none;
+  }
+}
+
+.fitness-first__img {
+  position: relative;
+}
+
+.fitness-first-pic {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.statistic {
+  position: absolute;
+  right: 40px;
+  bottom: 45px;
+}
+
+.users {
+  margin-top: 10px;
+  font: 400 0.857em/26px $ffO;
+  color: $red;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.count {
+  color: #fff;
+}
+
+.statistic__img {
+  margin-left: 10px;
+  float: right;
+}

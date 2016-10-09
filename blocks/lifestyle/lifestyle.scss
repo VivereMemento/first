@@ -1,0 +1,45 @@
+.lifestyle {
+  text-align: left;
+  background-color: $red;
+}
+
+.box__content-white {
+  padding: 50px 20px 50px 40px;
+  background-color: #fff;
+}
+
+.content-white__wrap {
+  padding-right: 30px;
+  background: url(../img/man.png) no-repeat top right;
+}
+
+.heading_pseudo_none {
+  &:after {
+    display: none;
+  }
+}
+
+.text_margin-top {
+  margin-top: 40px;
+}
+
+.box__content-green {
+  padding: 60px 60px 124px 60px;
+  text-align: left;
+  background-color: $green;
+  @include bs(0 0 62px rgba(0, 0, 0, 0.2));
+}
+
+.heading_font-size {
+  font-size: 2.857em;
+  color: #fff;
+  &:after {
+    display: none;
+  }
+}
+
+.text_font-size {
+  margin-top: 30px;
+  font-size: 0.929em;
+  color: #fff;
+}

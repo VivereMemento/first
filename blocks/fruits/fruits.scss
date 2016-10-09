@@ -1,0 +1,13 @@
+.fruits {
+	@extend .health-fitness;
+}
+
+.grapes {
+	background: url(../img/grapes.jpg) no-repeat center center;
+	@include cover;
+}
+
+.avacado {
+	background: url(../img/avacado.jpg) no-repeat center center;
+	@include cover;
+}
