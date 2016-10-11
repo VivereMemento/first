@@ -106,6 +106,9 @@
 }
 
 .closebtn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     color: #fff;
     font-size: 2em;
     display: none;
