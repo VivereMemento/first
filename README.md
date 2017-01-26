@@ -8,5 +8,6 @@
 3. Знание CSS/CSS3 HTML/HTML5 JavaScript jQuery
 4. Умение работать с фрейморками Bootstrap, Waypoint, Animate.css
 5. Адаптивность
+6. Навыки нарезки макета в PhotoShop
 
 Вы можете посмотреть, как у меня получилось, перейдя по ссылке https://viverememento.github.io/first/
